@@ -11,4 +11,4 @@ WHERE
     o.order_status = 'unpaid'
     AND subs.description = 'Fashion Magazine'
 GROUP BY
-    cust.customer_name;
+    cust.customer_name ;
